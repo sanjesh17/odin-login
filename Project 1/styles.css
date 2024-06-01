@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+.backimg{
+    float: left;
+    background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 30%;
+    z-index: 0;
+}
+
+.quote{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.quote-d{
+    float: left;
+    padding-top: 100px;
+}
+
+.first{
+    margin-left: 80px;
+}
+
+.second{
+    margin-top: 60px;
+    margin-right: -900px;
+    background-color: aliceblue;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 28px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.411);
+}
+
+.second h3{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.reg{
+    display: grid;
+    grid-template-columns: 260px 260px;
+    grid-template-rows: 60px 60px;
+}
+
+legend{
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: hsla(0, 0%, 0%, 0.747);
+}
+
+input{
+    border-radius: 4px;
+    padding: 3.8px 10px;
+    border: solid 1px hsla(0, 0%, 0%, 0.194)
+}
+
+.third{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.create-btn{
+    font-family: "Roboto", sans-serif;
+    padding: 10px 45px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #ED2839;
+    border: none;
+    box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.591);
+    cursor: pointer;
+}
+
+.third p{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.backimg p{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.61);
+    position: relative;
+    top: 96vh;
+    text-align: center;
+}
+
+.odin{
+    background-color: hsla(0, 0%, 0%, 0.347);
+    height: 150px;
+    margin-top: 100px;
+}
+
+.odin img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+}
+
+.login{
+    color: #ED2839;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.first h3{
+    font-family: "Roboto", sans-serif;
+    padding-top: 20px;
+}
+
+
+
